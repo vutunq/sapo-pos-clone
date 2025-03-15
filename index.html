@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapo POS - Shop Quần Áo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Danh sách sản phẩm -->
+    <div class="product-list">
+      <h2>Sản phẩm</h2>
+      <div id="products"></div>
+    </div>
+
+    <!-- Giỏ hàng -->
+    <div class="cart">
+      <h2>Giỏ hàng</h2>
+      <ul id="cart-items"></ul>
+      <div class="total">
+        <strong>Tổng tiền:</strong> <span id="total-amount">0</span> VND
+      </div>
+      <button class="checkout-btn" onclick="checkout()">Thanh toán</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
